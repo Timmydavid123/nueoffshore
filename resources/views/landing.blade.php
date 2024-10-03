@@ -30,14 +30,21 @@
         <div class="flex flex-col justify-center items-center h-full text-center">
             <h1 class="text-5xl md:text-6xl font-bold mb-4">WELCOME TO N.U.E OFFSHORE RESOURCES LTD</h1>
             <p class="text-xl md:text-2xl mb-8">Expanding the frontiers with exceeding grace</p>
+        </div>
 
-            <!-- Certifications -->
-            <div class="flex space-x-4 justify-center mt-6">
-                <img src="{{ asset('images/bimco.png') }}" alt="BIMCO" class="h-12">
-                <img src="{{ asset('images/cert1.png') }}" alt="Certification 1" class="h-12">
-                <img src="{{ asset('images/cert2.png') }}" alt="Certification 2" class="h-12">
-                <img src="{{ asset('images/cert3.png') }}" alt="Certification 3" class="h-12">
-            </div>
+        <!-- Upcut Shape at the Bottom -->
+        <div class="absolute bottom-0 left-0 w-full">
+            <svg class="w-full h-20" viewBox="0 0 1440 320">
+                <path fill="#1F2937" fill-opacity="1" d="M0,320L1440,0L1440,320L0,320Z"></path>
+            </svg>
+        </div>
+
+        <!-- Certifications (Lower Corner) -->
+        <div class="absolute bottom-0 left-0 right-0 flex justify-center mb-8 space-x-4">
+            <img src="{{ asset('images/bimco.png') }}" alt="BIMCO" class="h-12">
+            <img src="{{ asset('images/cert1.png') }}" alt="Certification 1" class="h-12">
+            <img src="{{ asset('images/cert2.png') }}" alt="Certification 2" class="h-12">
+            <img src="{{ asset('images/cert3.png') }}" alt="Certification 3" class="h-12">
         </div>
     </div>
 </body>
